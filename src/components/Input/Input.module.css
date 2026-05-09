@@ -1,0 +1,35 @@
+.input {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text-color);
+  border: 1px solid #eee;
+  box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.input-block {
+  position: relative;
+}
+
+.input-block__icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-block__search {
+  width: 256px;
+  font-size: 14px;
+  padding-left: 45px;
+}
+
+.block__search::placeholder {
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.item__title {
+  margin-bottom: 41px !important;
+}
+
+.item__table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.item__table-el {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.item__table-el:last-child {
+  border-bottom: none;
+}
+
+.item__table-info {
+  font-size: 16px;
+}
+
+.item__table-price {
+  font-size: 16px;
+  color: #9796a1;
+}
+.item__table-price span {
+  color: #000;
+}
+.item__table-info span {
+  color: #9796a1;
+}
+.item__btn {
+  display: flex;
+  justify-content: center;
+}

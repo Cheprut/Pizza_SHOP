@@ -1,0 +1,31 @@
+.input {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: #fcfcfd;
+  border: 1px solid #eee;
+  box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
+  border-radius: 10px;
+  padding: 16px 30px 16px 44px;
+  min-width: 256px;
+}
+
+/* .input::placeholder {
+  font-size: 14px;
+} */
+
+.invalid {
+  border-color: red;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,13 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success__title {
+  font-size: 31px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 120%;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,110 @@
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+}
+.main-layout__left {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+  border-right: 1px solid var(--separator-color);
+}
+.main-layout__logout {
+  align-self: flex-start;
+  border: none;
+  border-radius: 29px;
+  background: var(--primary-color);
+  color: var(--white-color);
+  box-shadow: 0px 10px 40px 0px rgba(122, 129, 190, 0.16);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 12px 32px;
+  text-transform: uppercase;
+  transition: background 0.25s;
+}
+
+.main-layout__logout:hover {
+  background: var(--primary-hover-color);
+}
+
+.main-layout__navigation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+
+.main-layout__navigation-link-cart {
+  position: relative;
+  left: -2px;
+}
+
+.main-layout__navigation-link {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-layout__icon {
+  width: 19px;
+  height: 19px;
+}
+
+.main-layout__user {
+  margin-bottom: 47px;
+}
+.main-layout__user-info {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--text-color);
+}
+.main-layout__user-email {
+  color: #9ea1b1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.main-layout__avatar {
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 8px 40px rgba(255, 197, 41, 0.25));
+}
+.main-layout__navigation-link:hover {
+  color: var(--primary-hover-color);
+}
+
+.main-layout__right {
+  padding: 39px 60px;
+  width: 100%;
+}
+
+.active {
+  color: var(--primary-hover-color);
+}
+
+.main-layout__cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  color: var(--white-color);
+  flex-shrink: 0;
+}
